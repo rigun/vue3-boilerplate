@@ -1,0 +1,485 @@
+@media screen and (min-width: 1440px) {
+    .r-keep-view{
+        max-width: 1440px;
+        margin: auto;
+        
+    }
+ }
+@media screen and (min-width: 800px) {
+    //   Desktop
+    .r-filter-box-sticky{
+        position: sticky;
+        top: 82px;
+    }
+    .r-slide{
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    .r-youtube-preview{
+        width: 560px !important;
+        height: 315px !important;
+    }
+    .r-humburger-clone{
+        left: -40px;
+    }
+    #Sidebar{
+        min-width: 230px;
+        max-width: 230px;
+    }
+    .r-hide-sidebar{
+        min-width: 0px !important;
+        max-width: 0px !important;
+    }
+    .r-hide-sidebarHeader{
+        padding: 0px 4px !important;
+    }
+    .r-move-burger{
+        left: 0px !important;
+    }
+    .r-content .r-container {
+        padding: 20px;
+    }
+    .r-column-3{
+        width: calc(100%/3 - 18px)
+    }
+
+   
+    .r-detailEventLanding{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .r-detailEvent-bg{
+            background: var(--blue-10);
+            border: 1px solid var(--black-10);
+            box-sizing: border-box;
+            border-radius: 8px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: calc(100% - 250px);
+            z-index: 1;
+        }
+        .r-detailEvent-content{
+            z-index: 2;
+            .r-detailEvent{
+                margin-left: 24px;
+                max-width: 720px;
+            }
+        }
+    }
+    .r-timeline-items{
+        .r-timeline{
+            .r-timeline-data{
+                width: calc(100% - 100px);
+                margin: auto;
+                .r-center-data{
+                    margin: auto;
+                }
+                .r-side-data{
+                    min-width: 250px;
+                    max-width: 250px;
+                    .r-timeline-info{
+                        margin-left: auto
+                    }
+                }
+            }
+        }
+    }
+    .r-landing-padding{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .r-companyItem{
+        min-width: calc((100% - (16px * 6) )/6);
+    }
+    .r-column-4{
+        max-width: calc((100% - (16px * 4) )/4);
+        min-width: calc((100% - (16px * 4) )/4);
+    }
+    .r-column-3{
+        max-width: calc((100% - (16px * 3) )/3);
+        min-width: calc((100% - (16px * 3) )/3);
+    }
+    .r-column-2{
+        max-width: calc((100% - (16px * 2) )/2);
+        min-width: calc((100% - (16px * 2) )/2);
+        margin: 0px 8px;
+    }
+    .r-column-three-quarters{
+        min-width: calc(75% - 16px);
+    }
+    .r-column-one-quarter{
+        min-width: calc(25% - 16px);
+    }
+    .r-university{
+        img{
+            width: 50px;
+        }
+    }
+    .r-hideInMobile{
+        display: inherit;
+    }
+    .r-showInMobile{
+        display: none;
+    }
+    .r-margin-left-responsive{
+        margin-left: auto;
+    }
+    .r-container{
+        padding-left: 9.4%;
+        padding-right: 9.4%;
+    }
+    .r-howToBook{
+        .r-howToBook-item{
+            .r-howToBook-detail{
+                .r-howToBook-image{
+                    max-width: 200px;
+                }
+                .r-howToBook-text{
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+            .r-howToBook-arrow{
+                width: 32px;
+                margin: 0px 20px;
+            }
+        }
+    }
+    .r-mysiloam{
+        max-width: 60vw;
+        margin: 0px auto;
+    }
+
+    h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h4{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    h5{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    body{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .r-tutorial-step2{
+        right: 16px;
+        top: 20px
+    }
+    .r-direction-step2{
+        left: 335px
+    }
+    .r-direction-step3{
+        left: calc(75% - 15px)
+    }
+    .r-tutorial-step3{
+        right: 0px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .r-tutorial-step3{
+        left: 0px;
+        right: 0px;
+    }
+    .r-tutorial-step2 {
+        left: 0px;
+        bottom: 76px;
+    }
+    .r-direction-step3{
+        left: calc(50% - 15px);
+    }
+    .r-direction-step2{
+        left: calc(50% - 15px);
+    }
+    .r-covidhospital-loc-mobile{
+        padding: 10px;
+        padding-bottom: 10px;
+        background: var(--primary);
+        border-radius: 4px;
+        color: white !important;
+    }
+    body{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    h4{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .r-mysiloam{
+        padding: 16px;
+    }
+    .r-mysiloam-apps{
+        margin: 0px -24px;
+    }
+    .r-60-square-mobile{
+        min-height: 60px !important;
+        max-height: 60px !important;
+        min-width: 60px !important;
+        max-width: 60px !important;
+    }
+    .r-mr-10-mobile{
+        margin-right: 10px;
+    }
+    .r-mt-20-mobile{
+        margin-top: 10px;
+    }
+    .r-howToBook{
+        flex-wrap: wrap;
+        justify-content: center;
+        .r-howToBook-item{
+            .r-howToBook-detail{
+                width: 30vw;
+                .r-howToBook-image{
+                    max-width: 200px;
+                }
+                .r-howToBook-text{
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+            .r-howToBook-arrow{
+                width: 28px;
+                margin: 0px 20px;
+            }
+            .r-howToBook-arrow2{
+                width: 28px;
+                margin: 20px auto;
+            }
+        }
+    }
+    .r-reverseInMobile{
+        flex-flow: row-reverse;
+    }
+    .r-reverseColumnInMobile{
+        flex-flow: column-reverse;
+    }
+    .r-howToBook-arrow-rotate{
+        transform: rotate(180deg);
+    }
+    .r-panel-mobile-active{
+        margin: 16px 0px;
+        .r-panel-header{
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            background: var(--black-20);
+            .r-expand-icon{
+                transform: rotateX(180deg) ;
+            }
+        }
+        .r-panel-body{
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            max-height: 600px !important;
+            padding-bottom: 8px;
+        }
+    }
+    .r-panel-mobile p, .r-panel-mobile ul > li, .r-panel-mobile ol > li {
+        color: var(--black-60)
+    }
+    .r-panel-mobile{
+        .r-panel-mobile-box{
+            background: white;
+            box-shadow: 0px 3px 1px -4px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+            transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1); 
+            border-bottom: solid 1px var(--black-20);
+            .r-panel-mobile-header{
+                padding: 10px 16px;
+                .r-expand-icon{
+                    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1); 
+                    margin-left: auto;
+                }
+            }
+            .r-panel-mobile-body{
+                transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1); 
+                padding-left: 16px;
+                padding-right: 16px;
+                background: white;
+                max-height: 0;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .r-ptb-40{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .r-container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .r-mlr-auto-mobile{
+        margin-top: 16px !important;
+        margin-bottom: 16px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+  
+    //   Mobile
+    .r-column-3{
+        width: 100%;
+    }
+    .r-humburger-clone{
+        left: 0px;
+    }
+    .r-content .r-container {
+        padding: 16px;
+    }
+    .r-content, #NavbarDashboard {
+        width: 100% !important;
+        padding-left: 0px !important;
+    }
+    .r-isExpand-mobile{
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: auto !important;
+    }
+    .r-clearmargin-mobile {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    .r-detailEventLanding{
+        margin: 50px 0px;
+        .r-detailEvent-content{
+            flex-wrap: wrap;
+        }
+    }
+   
+    .r-hideInMobile{
+        display: none;
+    }
+    .r-showInMobile{
+        display: inherit;
+    }
+    .r-isWrapInMobile{
+        flex-wrap: wrap;
+    }
+    .r-center-text-mobile{
+        text-align: center !important;
+    }
+    .r-justify-center-mobile{
+        justify-content: center;
+    }
+    .r-column-three-quarters{
+        min-width: 100%;
+    }
+    .r-column-one-quarter{
+        min-width: 100%;
+    }
+    $squareSize: (4,8,10,15,20,24,28,32,36,40,56,64,80,112,176, 200, 250, 300, 350);
+    @each $size in $squareSize {
+        .r-#{$size}-square-mobile{
+            min-height: #{$size}px; 
+            max-height: #{$size}px;
+            min-width: #{$size}px; 
+            max-width: #{$size}px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        .r-#{$size}-wd-mobile{
+            min-width: #{$size}px; 
+            max-width: #{$size}px;
+        }
+        .r-#{$size}-wd-mobile-min{
+            min-width: #{$size}px; 
+        }
+        .r-#{$size}-wd-mobile-max{
+            max-width: #{$size}px;
+        }
+        .r-#{$size}-radius-mobile{
+            border-radius: #{$size}px;
+        }
+    }
+}
+
+@media screen and (min-width: 456px ) and (max-width: 800px) {
+    .r-column-4{
+        max-width: calc((100% - (16px * 2) )/2);
+    }
+    .r-column-3{
+        max-width: calc(100% - 16px);
+    }
+    .r-column-2{
+        max-width: calc(100% - 16px);
+    }
+}
+
+@media screen and (max-width: 456px) {
+    .r-column-4{
+        max-width: calc(100% - 16px);
+    }
+    .r-column-3{
+        max-width: calc(100% - 16px);
+    }
+    .r-column-2{
+        max-width: calc(100% - 16px);
+    }
+    .r-birth-year, .r-birth-month, .r-birth-date,.r-birth-year2, .r-birth-month2{
+        width: 100%;
+    }
+    //   Mobile
+}
+
+@media screen and (min-width: 456px) {
+    .r-birth-year2{
+        min-width: 40%;
+        max-width: 40%;
+    }
+    .r-birth-month2{
+        min-width: 55%;
+        max-width: 55%;
+    }
+
+    .r-birth-year{
+        min-width: 30%;
+        max-width: 30%;
+    }
+    .r-birth-month{
+        min-width: 45%;
+        max-width: 45%;
+    }
+    .r-birth-date{
+        min-width: 20%;
+        max-width: 20%;
+    }
+    //   Desktop Modal
+}
