@@ -1,11 +1,38 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
   </div>
   <router-view/>
 </template>
+<script>
+// import { mapGetters, mapActions} from 'vuex'
 
+// export default {
+//   computed: {
+//     ...mapGetters({
+//       categoryStatus: 'category/getStatus',
+//       categoryData: 'category/getList'
+//     })
+//   },
+//   data: () => ({
+//     category: 'TestCategory',
+//   }),
+//   mounted(){
+//     this.category = this.$store.getters['category/getStatus']
+//     this.getData()
+//   },
+//   methods: {
+//     ...mapActions({
+//       getCategory: 'category/getData',
+//       resetCategory: 'category/resetState',
+//     }),
+//     async getData(){
+//       this.resetCategory()
+//       if(this.categoryData.length == 0 ) this.getCategory()
+//     }
+//   }
+// }
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

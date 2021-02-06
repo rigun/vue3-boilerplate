@@ -4,4 +4,10 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
-createApp(App).use(store).use(router).mount('#app')
+const runVue = async (r) => {
+    const router = await r
+    createApp(App).use(store).use(router).mount('#app')
+}
+
+runVue(router)
+
