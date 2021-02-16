@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import routes from './routes'
-// import { Trans } from '@/plugins/translation'
+import { Trans } from '@/helpers/translation'
 
 const setRouter = async (routes) => {
   const data = await routes
@@ -8,7 +8,7 @@ const setRouter = async (routes) => {
     history: createWebHistory(process.env.BASE_URL),
     routes: data
   })
-  // router.beforeEach(Trans.routeMiddleware)
+  router.beforeEach(Trans.routeMiddleware)
   return router
 }
 export default setRouter(routes)

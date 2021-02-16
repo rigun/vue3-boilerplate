@@ -3,7 +3,7 @@ import {
 } from '@/store/config/method'
 import {
     diffDateTime
-} from '@/plugins/timeformat'
+} from '@/helpers/timeformat'
 const expired_in_minutes = -30;
 const initialState = () => ({
     status: "category2",

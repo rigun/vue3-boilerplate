@@ -1,0 +1,32 @@
+{
+  "text": {
+    "welcome": "Welcome"
+  },
+  "metatag": {
+    "default": {
+      "title": "Default Title",
+      "description": "Description",
+      "keywords": "default"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Description About Us",
+      "keywords": "about"
+    },
+    "login": {
+      "title": "Login",
+      "description": "Description Login",
+      "keywords": "login"
+    },
+    "user": {
+      "title": "Profile",
+      "description": "Description Profile",
+      "keywords": "user profile"
+    },
+    "notfound": {
+      "title": "Not Found",
+      "description": "Description Not Found",
+      "keywords": "Not Found"
+    }
+  }
+}

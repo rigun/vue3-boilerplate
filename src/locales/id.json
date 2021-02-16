@@ -1,0 +1,32 @@
+{
+  "text": {
+    "welcome": "Selamat Datang"
+  },
+  "metatag": {
+    "default": {
+      "title": "Judul Default",
+      "description": "Deskripsi",
+      "keywords": "default"
+    },
+    "about": {
+      "title": "Tentang",
+      "description": "Deskripsi Tentang",
+      "keywords": "tentang"
+    },
+    "login": {
+      "title": "Login",
+      "description": "Deskripsi Login",
+      "keywords": "login"
+    },
+    "user": {
+      "title": "Profile",
+      "description": "Deskripsi Profile",
+      "keywords": "user profile"
+    },
+    "notfound": {
+      "title": "Tidak Ditemukan",
+      "description": "Deskripsi Tidak Ditemukan",
+      "keywords": "tidak ditemukan"
+    }
+  }
+}
