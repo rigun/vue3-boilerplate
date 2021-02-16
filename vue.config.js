@@ -1,31 +1,38 @@
 const TerserPlugin = require("terser-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   runtimeCompiler: true,
   publicPath: process.env.VUE_APP_PATH,
-  module: {
-    rules: [
-      {
-        test: /\.s|css$/,
-        use: [
-          { loader: MiniCssExtractPlugin.loader },
-          "css-loader",
-          "postcss-loader",
-          "sass-loader"
+  css: {
+    loaderOptions: {
+      css: {
+        // options here will be passed to css-loader
+      },
+      postcss: {
+        plugins: [
+          require('cssnano')({
+            preset: ['default', {                
+              discardComments: {
+                removeAll: true,
+              }
+            }]
+          })
         ]
+        // options here will be passed to postcss-loader
       }
-    ]
+    }
   },
   configureWebpack: {
     plugins: [
-      new TerserPlugin({
-      terserOptions: {
-         compress: {
-             drop_console: true
-         }
-        }
-    }),
-    new MiniCssExtractPlugin({ filename: "[name].[hash].css" })],
+        new TerserPlugin({
+          terserOptions: {
+              compress: {
+                  drop_console: true
+              }
+            }
+        })
+      // new MiniCssExtractPlugin({ filename: "[name].[hash].css" })
+    ],
   },
   pluginOptions: {
     i18n: {
